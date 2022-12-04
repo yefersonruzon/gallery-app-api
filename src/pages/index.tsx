@@ -16,6 +16,7 @@ export default function Home() {
   useEffect(()=>{
     loadImages()
   },[])
+
   return (
     <div className={styles.container}>
       <Imagelist photos={photos} />
